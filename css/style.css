@@ -51,16 +51,33 @@ img {
 }
 
 #search-bar input {
-  height: 30px;
-  width: 500px;
+  height: 40px;
+  width: 600px;
 }
 
 .buttons {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1px;
+  margin-top: 20px;
   display: block;
   text-align: center;
+}
+
+.search, .lucky {
+  background-color: #E7E7E7;
+  border: none;
+  padding: 12px;
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.search:hover, .lucky:hover {
+  background-color: white;
+  color: black;
+  padding: 11px;
+  border: 1px solid gray;
 }
 
 .foot {
