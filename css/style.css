@@ -48,6 +48,7 @@ img {
   text-align: center;
   margin-top: 10px;
   margin-left: auto;
+  border-radius: 10px;
 }
 
 #search-bar input {
@@ -66,7 +67,7 @@ img {
 .search, .lucky {
   background-color: #E7E7E7;
   border: none;
-  padding: 12px;
+  padding: 12px 18px;
   color: gray;
   font-weight: bold;
   font-size: 14px;
@@ -76,8 +77,12 @@ img {
 .search:hover, .lucky:hover {
   background-color: white;
   color: black;
-  padding: 11px;
+  padding: 11px 17px;
   border: 1px solid gray;
+}
+
+.search:active, .lucky:active {
+  border: 1px solid blue;
 }
 
 .foot {
