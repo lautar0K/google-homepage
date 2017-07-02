@@ -44,15 +44,23 @@ img {
 
 .search-bar {
   width: 100%;
-  height: 100px;
+  height: 50px;
   text-align: center;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: auto;
 }
 
 #search-bar input {
   height: 30px;
   width: 500px;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  display: block;
+  text-align: center;
 }
 
 .foot {
